@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap");
+
+body {
+  background-color: #26ed87;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Roboto", sans-serif; //TITLES
+    font-weight: bold;
+  }
+  p {
+    font-family: "Noto Sans JP", sans-serif; //PARAGRAPHS
+  }
+}
+.card_style {
+  box-shadow: 0 5px 10px -6px black;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    box-shadow: 0 5px 15px -6px black;
+    transform: scale(1.1);
+  }
+}
+
+.submitBtn {
+  background-color: #26ed87;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 5px 10px -6px black;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    background-color: rgb(185, 185, 185);
+    box-shadow: 0 5px 15px -6px black;
+    transform: scale(1.1);
+  }
+}
+//Decimal to Binary
+#decimalToBinary {
+  border-radius: 5px;
+  border: 2px solid #c5c5c5 !important;
+}
+#binary_container {
+  display: none;
+  width: fit-content;
+}
+#binary {
+  margin: 0 !important;
+}
+
+//Binary to Decimal
+#binaryToDecimal {
+  border-radius: 5px;
+  border: 2px solid #c5c5c5 !important;
+}
+#decimal_container {
+  display: none;
+  width: fit-content;
+}
+#decimal {
+  margin: 0 !important;
+}
+
+//Text to Binary
+#textToBinary {
+  border-radius: 5px;
+  border: 2px solid #c5c5c5 !important;
+}
+#txtBinary_container {
+  display: none;
+  width: fit-content;
+}
+#txtBinary {
+  margin: 0 !important;
+}

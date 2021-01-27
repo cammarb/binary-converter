@@ -18,6 +18,9 @@ body p {
 }
 
 .card_style {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   -webkit-box-shadow: 0 5px 10px -6px black;
           box-shadow: 0 5px 10px -6px black;
   -webkit-transition: all 0.5s ease-in-out;

@@ -50,6 +50,8 @@ body {
 }
 #binary {
   margin: 0 !important;
+  word-break: break-all;
+  width: 307px;
 }
 
 //Binary to Decimal
@@ -63,6 +65,8 @@ body {
 }
 #decimal {
   margin: 0 !important;
+  word-break: break-all;
+  width: 307px;
 }
 
 //Text to Binary
@@ -76,4 +80,6 @@ body {
 }
 #txtBinary {
   margin: 0 !important;
+  word-break: break-all;
+  width: 307px;
 }

@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #26ed87;
   h1,
@@ -15,14 +20,19 @@ body {
     font-family: "Noto Sans JP", sans-serif; //PARAGRAPHS
   }
 }
-.card_style {
-  width: fit-content;
-  box-shadow: 0 5px 10px -6px black;
-  transition: all 0.5s ease-in-out;
-  &:hover {
-    box-shadow: 0 5px 15px -6px black;
-    transform: scale(1.1);
-  }
+
+section {
+  height: 85vh;
+  position: relative;
+  background-color: white;
+  margin-bottom: 6vh;
+}
+
+.section_child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .submitBtn {
@@ -78,7 +88,7 @@ body {
   display: none;
   width: fit-content;
 }
-#txtBinary {
+#txtbinary {
   margin: 0 !important;
   word-break: break-all;
   width: 307px;

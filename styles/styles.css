@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #26ed87;
 }
@@ -17,21 +22,19 @@ body p {
   font-family: "Noto Sans JP", sans-serif;
 }
 
-.card_style {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  -webkit-box-shadow: 0 5px 10px -6px black;
-          box-shadow: 0 5px 10px -6px black;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+section {
+  height: 85vh;
+  position: relative;
+  background-color: white;
+  margin-bottom: 6vh;
 }
 
-.card_style:hover {
-  -webkit-box-shadow: 0 5px 15px -6px black;
-          box-shadow: 0 5px 15px -6px black;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.section_child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .submitBtn {
@@ -102,7 +105,7 @@ body p {
   width: fit-content;
 }
 
-#txtBinary {
+#txtbinary {
   margin: 0 !important;
   word-break: break-all;
   width: 307px;

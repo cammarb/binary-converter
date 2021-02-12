@@ -1,11 +1,3 @@
-function reoderArray(array) {
-  var finalArray = [];
-  for (let i = 0; i < array.length; i++) {
-    finalArray.push(array[array.length - i - 1]);
-  }
-  return finalArray.join("");
-}
-
 // DECIMAL TO BINARY
 function convertToBinary() {
   var binaryArrayBackwards = [];
@@ -28,14 +20,6 @@ function convertToBinary() {
 }
 
 // BINARY TO DECIMAL
-function acceptOnlyBinary(e) {
-  var key = window.event ? e.keyCode : e.which;
-  if (key == 48 || key == 49) return true;
-  else {
-    alert("Please input binary numbers only");
-    return false;
-  }
-}
 
 function convertToDecimal() {
   let decimalArray = [];

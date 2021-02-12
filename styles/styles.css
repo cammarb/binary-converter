@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #26ed87;
 }
@@ -16,17 +20,52 @@ body h5,
 body h6 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  color: white;
 }
 
 body p {
   font-family: "Noto Sans JP", sans-serif;
+  color: white;
+}
+
+body label {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+body input {
+  color: white;
+  background-color: #666666;
+}
+
+body a {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.dropdown-menu {
+  color: white;
+  background-color: #343a40 !important;
+}
+
+.dropdown-menu .dropdown-item {
+  color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #26ed87;
+}
+
+.section_container {
+  padding-top: 0 !important;
+  top: -56px !important;
 }
 
 section {
-  height: 85vh;
+  height: 100vh;
   position: relative;
-  background-color: white;
-  margin-bottom: 6vh;
+  background-color: #424242;
+  margin-bottom: 3vh;
 }
 
 .section_child {
@@ -93,7 +132,7 @@ section {
   width: 307px;
 }
 
-#textToBinary {
+#txtToBinary {
   border-radius: 5px;
   border: 2px solid #c5c5c5 !important;
 }
@@ -109,5 +148,28 @@ section {
   margin: 0 !important;
   word-break: break-all;
   width: 307px;
+}
+
+#binaryToTxt {
+  border-radius: 5px;
+  border: 2px solid #c5c5c5 !important;
+}
+
+#binaryTxt_container {
+  display: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#binarytxt {
+  margin: 0 !important;
+  word-break: break-all;
+  width: 307px;
+}
+
+.logo {
+  font-weight: 700 !important;
+  color: white !important;
 }
 /*# sourceMappingURL=styles.css.map */

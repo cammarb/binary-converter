@@ -16,3 +16,13 @@ function acceptOnlyBinary(e) {
     return false;
   }
 }
+
+function multiplesOfEight() {
+  let binary = document.getElementById("binaryToTxt").value;
+  if (binary.length % 8 === 0) {
+    return convertBinaryToTxt();
+  } else {
+    alert("Please input the correct lenght of binary numbers");
+    return false;
+  }
+}

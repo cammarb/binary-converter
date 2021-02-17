@@ -20,7 +20,6 @@ function convertToBinary() {
 }
 
 // BINARY TO DECIMAL
-
 function convertToDecimal() {
   let decimalArray = [];
   let sum = 0;

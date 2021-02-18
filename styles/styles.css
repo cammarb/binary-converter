@@ -43,9 +43,13 @@ body a {
   color: white;
 }
 
+.bg-dark {
+  background-color: #383838 !important;
+}
+
 .dropdown-menu {
   color: white;
-  background-color: #343a40 !important;
+  background-color: #383838 !important;
 }
 
 .dropdown-menu .dropdown-item {
@@ -64,8 +68,7 @@ body a {
 section {
   height: 100vh;
   position: relative;
-  background-color: #424242;
-  margin-bottom: 3vh;
+  background-color: #383838;
 }
 
 .section_child {

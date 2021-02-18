@@ -37,10 +37,12 @@ body {
     color: white;
   }
 }
-
+.bg-dark {
+  background-color: #383838 !important;
+}
 .dropdown-menu {
   color: white;
-  background-color: #343a40 !important;
+  background-color: #383838 !important;
   .dropdown-item {
     color: white;
     &:hover {
@@ -57,8 +59,7 @@ body {
 section {
   height: 100vh;
   position: relative;
-  background-color: rgb(66, 66, 66);
-  margin-bottom: 3vh;
+  background-color: #383838;
 }
 
 .section_child {

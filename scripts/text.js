@@ -27,6 +27,7 @@ function convertTxtToBinary() {
 function convertBinaryToTxt() {
   var binary = document.getElementById("binaryToTxt").value.split("");
   let binaryShortArray = [];
+  let phrase = "";
   let array = [128, 64, 32, 16, 8, 4, 2, 1];
   console.log(binary);
   do {
@@ -38,14 +39,11 @@ function convertBinaryToTxt() {
         sumOfDigits += array[i];
       }
     }
-    console.log(sumOfDigits);
+    phrase += String.fromCharCode(sumOfDigits);
   } while (binary.length > 0);
+  console.log(phrase);
 
-  // binary = [1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0]
-  // shortArray = [1,0,1,0,1,0,1,0]
-  // shortArray[0] = 1; sumOfDigits = 128;
-
-  // document.getElementById("txtbinary").innerHTML = binaryArray.join("");
-  // var binaryContainer = document.getElementById("txtBinary_container");
-  // binaryContainer.style.display = "block";
+  document.getElementById("binarytxt").innerHTML = phrase;
+  var binaryContainer = document.getElementById("binaryTxt_container");
+  binaryContainer.style.display = "block";
 }

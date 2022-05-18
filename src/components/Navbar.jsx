@@ -5,9 +5,9 @@ import { MenuIcon } from '@heroicons/react/outline'
 export class Navbar extends Component {
     render() {
         return (
-            <div className="max-w-8xl mx-auto">
-                <div className='py-4 border-b border-slate-900/10 lg:px-8 lg:border-0 dark:border-slate-300/10 mx-4 lg:mx-0'>
-                    <div className="relative flex items-center place-content-between">
+            <div className="border-b bg-slate-100 dark:bg-zinc-900 dark:border-zinc-500">
+                <div className='py-4 lg:px-8 max-w-6xl mx-auto'>
+                    <div className="relative flex items-center place-content-between mx-4 dark:text-zinc-300">
                         <div className='flex items-center text-lg font-medium'>
                             <a href="/">
                                 Binary Converter

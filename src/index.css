@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
   width: 100vw;
   min-height: 100vh;
-  overflow: hidden;
+  
   margin: 0;
   font-family: 'Roboto Mono','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

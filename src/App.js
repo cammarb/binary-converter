@@ -7,8 +7,8 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <Forms title="Decimal to Binary" id="decimal" />
-        <Forms title="Text to Binary" id="text" />
+        <Forms title={"Decimal to Binary"} id={"decimal"} />
+        <Forms title={"Text to Binary"} id={"text"} />
       </BrowserRouter>
     </>
   );

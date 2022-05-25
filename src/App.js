@@ -1,15 +1,18 @@
-import { BrowserRouter } from "react-router-dom";
-import { Forms } from "./components/Forms";
+import { Route, Routes } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
+import { Home } from "./pages/Home";
+import { Learn } from "./pages/Learn";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-        <Forms title="Decimal to Binary" id="decimal" />
-        <Forms title="Text to Binary" id="text" />
-      </BrowserRouter>
+      <Navbar />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/learn" element={<Learn />} />
+        </Routes>
+      </main>
     </>
   );
 }

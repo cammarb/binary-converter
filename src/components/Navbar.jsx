@@ -15,10 +15,10 @@ export const Navbar = () => {
                         </a>
                     </div>
                     <div className="justify-center items-center space-x-4 hidden lg:inline-flex">
-                        <Link to='#decimal' className='hover:font-medium' smooth>
+                        <Link to='/#decimal' className='hover:font-medium' smooth>
                             Decimal
                         </Link>
-                        <Link to='#text' className='hover:font-medium' smooth>
+                        <Link to='/#text' className='hover:font-medium' smooth>
                             Text
                         </Link>
                         <Link to="/learn">

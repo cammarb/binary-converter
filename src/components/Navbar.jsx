@@ -21,9 +21,9 @@ export const Navbar = () => {
                         <Link to='#text' className='hover:font-medium' smooth>
                             Text
                         </Link>
-                        <a href="/learn">
+                        <Link to="/learn">
                             <Button>{"Learn"}</Button>
-                        </a>
+                        </Link>
                     </div>
                     <div className='flex items-center lg:hidden'>
                         <button>
